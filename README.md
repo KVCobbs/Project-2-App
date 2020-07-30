@@ -40,7 +40,7 @@ A button for new insult
 A button to save insult 
 
 PostMVP
-Slider for a clean version
+Slider for a clean insult version
 
 
 MVP
