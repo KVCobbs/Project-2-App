@@ -31,7 +31,7 @@ Now create a separate list starting with A and assign it one of the features. Co
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
 
 
-MVP 
+MVP
 
 Hamburger menu
 
