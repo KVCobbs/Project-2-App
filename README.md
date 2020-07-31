@@ -23,27 +23,23 @@ My project is an insult library. The app will give you insults to save and use w
 Wireframes:
 https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Dcbee9f7213eb30a66ca34af5e7a27f9b.pdf
 
-| Urgent                                    | 
-|-------------------------------------------| 
-| Not Urgent                                | 
-| Important                                 | 
-|  Quadrant 1                               | 
-|                                           | 
-| Front end and Back end work properly      | 
-|                                           | 
-| Hamburger menu                            | 
-|                                           | 
-|  Hamburger menu dropdown                  | 
-| Quadrant 2                                | 
-|                                           | 
-| Seperate page for insult library          | 
-| Not Important                             | 
-| Quadrant 3                                | 
-|                                           | 
-| Slider with animation for clean insults.  | 
-| Quadrant 4                                | 
-|                                           | 
-| Slider with animation for clean insults.  | 
+|                                           |              |  | 
+|-------------------------------------------|--------------|--| 
+| Urgent                                    | Not Urgent   |  | 
+| Important                                 | "Quadrant 1  |  | 
+|                                           |              |  | 
+| Front end and Back end work properly      |              |  | 
+|                                           |              |  | 
+| Hamburger menu                            |              |  | 
+|                                           |              |  | 
+|  Hamburger menu dropdown"                 | "Quadrant 2  |  | 
+|                                           |              |  | 
+| Seperate page for insult library"         |              |  | 
+| Not Important                             | "Quadrant 3  |  | 
+|                                           |              |  | 
+| Slider with animation for clean insults." | "Quadrant 4  |  | 
+|                                           |              |  | 
+| Slider with animation for clean insults." |              |  | 
 
 
 MVP:
