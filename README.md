@@ -33,7 +33,7 @@ Now create a separate list starting with A and assign it one of the features. Co
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
 
 
-MVP
+MVP:
 
 Hamburger menu
 
@@ -42,9 +42,10 @@ Frontend connected to Backend
 Library to store/delete insults on seperate HTML page
 
 
-PostMVP
+PostMVP:
 
 Slider for a clean insult version
+Hamburger animation 
 
 
 #### MVP
@@ -64,21 +65,18 @@ Slider for a clean insult version
 | Hamburger animation | L | 6hr | -hr | -hr|
 
 
-Additional Libraries
-Use this section to list all supporting libraries and thier role in the project.
+Additional Libraries:
+N/A
 
 
-
-Code Snippet
+Code Snippet:
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description
+N/A
 
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
 
-Issues and Resolutions
+
+Issues and Resolutions:
 Use this section to list of all major issues encountered and their resolution.
+N/A
 
-SAMPLE.....
-ERROR: app.js:34 Uncaught SyntaxError: Unexpected identifier
-RESOLUTION: Missing comma after first object in sources {} object
+
