@@ -23,7 +23,8 @@ My project is an insult library. The app will give you insults to save and use w
 Wireframes:
 https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Dcbee9f7213eb30a66ca34af5e7a27f9b.pdf
 
-Time Martix
+Time Martix:
+https://docs.google.com/document/d/1hzmU1K8zH8t8FNEhCp88_mq8_iTX74kOZsqgFJ2UFyQ/edit?usp=sharing
 
 MVP:
 
