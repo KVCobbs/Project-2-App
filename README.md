@@ -24,14 +24,10 @@ Wireframes:
 https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Dcbee9f7213eb30a66ca34af5e7a27f9b.pdf
 
 Time/Priority Matrix
-Include a full list of features that have been prioritized based on the Time and Priority Matix. This involves drawing a a square. In the middle of the square, on the x axis draw a line. The most left part of the line should start with 0hrs and the end of the line should include 2hrs. This line will be used to estimate how much time any one feature will take to complete.
-
-Now draw a vertical line on the y axis. The top of this line should have High and the bottom Low. This line will be used to assign a priority to to each feature you wish to include in the project.
-
-Now create a separate list starting with A and assign it one of the features. Continue to assign each feature a letter. Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter.
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
-
+| important  |   |   |
+|---|---|---|
+| not important  |   |   |
+|   |   |   |
 
 MVP:
 
