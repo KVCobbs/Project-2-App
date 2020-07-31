@@ -1,13 +1,15 @@
 # Project-2-App
 
 Project Overview
+
+
 Project Schedule
 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
+|Day 1| Project Description | complete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| complete
 |Day 2| Working RestAPI | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -18,7 +20,7 @@ Project Description:
 
 My project is an insult library. The app will give you insults to save and use whenever you need. You can add your own special insults and even delete insults you dont think are good. 
 
-Wireframes
+Wireframes:
 https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_Dcbee9f7213eb30a66ca34af5e7a27f9b.pdf
 
 Time/Priority Matrix
