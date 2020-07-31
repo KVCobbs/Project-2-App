@@ -31,15 +31,22 @@ Now create a separate list starting with A and assign it one of the features. Co
 Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo.
 
 
-MVP (examples)
+MVP 
+
 Hamburger menu
+
 Frontend connected to Backend
+
 Allow user to add favorite insults
+
 Save their choices in list on seperate page
+
 A button for new insult
+
 A button to save insult 
 
 PostMVP
+
 Slider for a clean insult version
 
 
