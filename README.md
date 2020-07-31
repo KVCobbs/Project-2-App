@@ -39,13 +39,8 @@ Hamburger menu
 
 Frontend connected to Backend
 
-Allow user to add favorite insults
+Library to store/delete insults on seperate HTML page
 
-Save their choices in list on seperate page
-
-A button for new insult
-
-A button to save insult 
 
 PostMVP
 
@@ -57,9 +52,8 @@ Slider for a clean insult version
 | --- | :---: |  :---: | :---: | :---: |
 | Hamburger menu | H | 6hr | -hr | -hr|
 | Frontend/Backend connection | H | 8hr | -hr | -hr|
-| Save insult function| H | 8hr | -hr | -hr|
 | Seperate library page | H | 8hr| -hr | -hr |
-| button to randomize new insult| M | 8hr | -hr | -hr|
+|drop down menu from hamburger to library| M | 8hr | -hr | -hr|
 
 
 
@@ -67,6 +61,7 @@ Slider for a clean insult version
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Clean version slider | L | 3hr | -hr | -hr|
+| Hamburger animation | L | 6hr | -hr | -hr|
 
 
 Additional Libraries
