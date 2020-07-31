@@ -25,23 +25,6 @@ https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_
 
 Time Martix
 
-	Urgent	Not Urgent
-Important	"Quadrant 1 
-
-Front end and Back end work properly 
-
-Hamburger menu
-
- Hamburger menu dropdown"	"Quadrant 2 
-
-Seperate page for insult library"
-Not Important	"Quadrant 3
-
-Slider with animation for clean insults."	"Quadrant 4
-
-Slider with animation for clean insults."
-
-
 MVP:
 
 Hamburger menu
