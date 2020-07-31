@@ -55,8 +55,8 @@ Slider for a clean insult version
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger menu | H | 6hr | 1.5hr | -hr|
-| Frontend/Backend connection | H | -hr | -hr | -hr|
+| Hamburger menu | H | 6hr | -hr | -hr|
+| Frontend/Backend connection | H | 8hr | -hr | -hr|
 | Save insult function| H | 8hr | -hr | -hr|
 | Seperate library page | H | 8hr| -hr | -hr |
 | button to randomize new insult| M | 8hr | -hr | -hr|
