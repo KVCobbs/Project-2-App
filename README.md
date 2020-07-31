@@ -14,7 +14,8 @@ Project Schedule
 |Day 5| Final Touches and Present | Incomplete
 
 
-Project Description
+Project Description:
+
 My project is an insult library. The app will give you insults to save and use whenever you need. You can add your own special insults and even delete insults you dont think are good. 
 
 Wireframes
