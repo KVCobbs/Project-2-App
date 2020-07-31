@@ -8,8 +8,8 @@ Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | complete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| complete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
 |Day 2| Working RestAPI | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
@@ -55,11 +55,11 @@ Slider for a clean insult version
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger menu | H | 1hr | 1.5hr | -hr|
-| Frontend/Backend connection | H | 3hr | -hr | -hr|
-| Save insult function| H | H | -hr | -hr|
-| Seperate library page | H | 1.5hr| -hr | -hr |
-| button to randomize new insult| M | 4hr | 2hr | -hr|
+| Hamburger menu | H | 6hr | 1.5hr | -hr|
+| Frontend/Backend connection | H | -hr | -hr | -hr|
+| Save insult function| H | 8hr | -hr | -hr|
+| Seperate library page | H | 8hr| -hr | -hr |
+| button to randomize new insult| M | 8hr | -hr | -hr|
 
 
 
