@@ -1,0 +1,43 @@
+*{
+    border:solid 091540;
+}
+
+body{
+    background-color:7692FF;
+}
+
+.first{
+  background-color:091540;
+}
+
+.second{
+   background-color:091540;
+}
+
+
+.third{
+   background-color:091540;
+}
+
+.burger {
+    display:block;
+    padding:5px;
+  }
+
+  .content{
+    display:block;
+    list-style-type:none;
+    background-color:white;
+    height: 5px;
+    width: 50px;
+    margin: 5px;
+  }
+  
+  .burger-content {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    list-style-type: none;
+    justify-content: flex-end;
+  
+  }
