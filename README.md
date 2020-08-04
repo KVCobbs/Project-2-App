@@ -56,6 +56,7 @@ Hamburger animation
 | --- | :---: |  :---: | :---: | :---: |
 | Clean version slider | L | 3hr | -hr | -hr|
 | Hamburger animation | L | 6hr | -hr | -hr|
+| User login | M | 6hr | -hr | -hr|
 
 
 Additional Libraries:
