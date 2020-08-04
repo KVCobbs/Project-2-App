@@ -3,19 +3,19 @@
 const deployedURL = ""
 const URL = deployedURL ? deployedURL:"http://localhost:3000" //This is the URL being deployed and 
 
+///////////////////
 //Global Variables
 ///////////////////
-//const $insultInput = $("#createinput");
-//const $insultsInput = $("#createselect");
-
+const $insultInput = $("#createinput");
+const $insultsSelect = $("#createselect");
 //button with the property create
 const $button = $("#createbutton");
 const $insultEditInput = $("#editinput");
-
 //button with the property edit
 const $editButton = $("#editbutton");
 const $ul = $("ul");
 
+//////////////////////////////
 //Define your functions here
 ///////////////////////////////
 
@@ -25,6 +25,33 @@ const getInsult = async () => {
     const response = await fetch(`${URL}/Insults`); //This line is sticking to line 4 
     const data = await response.json();
 }
+//Get all insults
+const getInsults = async () => {
+  //gets the insults
+  const response = await fetch(`${URL}/insults`);
+  const data = await response.json();
+
+  //This helped me put my database on screen
+    //populate DOM with Insults
+   // data.forEach((insult) => {
+    const randomInsultIndex = Math.floor(Math.random()*data.length)
+      const $p = $(`<p>`).text(data[randomInsultIndex].name)
+       $(`.first`).append($p)
+    
+    console.log(data.length);
+}
+
+getInsults();
+
+//hamburger menu
+$(document).ready(function(){
+  $('.burger').on('click',
+  function () {
+    $('nav').toggle(600)
+  });
+});
+
+
 
 /*
 //Populate selector with Data
@@ -36,53 +63,3 @@ data.forEach((Insults) => {
     $pizzaEditSelect.append($option2);
 });
 */
-
-//Get all insults
-const getInsults = async () => {
-    //gets the insults
-    const response = await fetch(`${URL}/insults`);
-    const data = await response.json();
-  //  console.log(data);
-
-//This helped me put my database on screen
-    //populate DOM with Insults
-   // data.forEach((insult) => {
-    const randomInsultIndex = Math.floor(Math.random()*data.length)
-      const $p = $(`<p>`).text(data[randomInsultIndex].name)
-       $(`.first`).append($p)
-    
-    console.log(data.length);
-   // const randomInsultIndex = Math.floor(Math.random()*data.length)
-}
-
-
-getInsults();
-
-//const insultsArray = [ ]
-
-
-
-
-
-
-/* Potential throwaway code
-//select insults container div
-const insults = document.querySelector('.insults')
-//select submit button
-  //select submit-edit button
-const editSubmit = document.getElementById('submit-edit')
-//select delete button
-const deleteButton = document.getElementByIdById('delete')
-
-//stores which item edit/delete when the edit model is up 
-let currentlyEditing = ''
-*/
-
-
-//hamburger menu
-   $(document).ready(function(){
-    $('.burger').on('click',
-    function () {
-      $('nav').toggle(600)
-    });
-  });
