@@ -82,17 +82,15 @@ getInsults();
     const deleteInsult = async(event) => {
       //make request to delete insult. 
       //This is suppose to select the first p tag that is the child of another element. 
-        const delInsult = $("p").attr("id")
-      
-          const response = await fetch('${URL}/insults/${delInsult}', {
+        const delInsult = $("p:first-child").attr("id")
+          const response = await fetch(`${URL}/insults/${delInsult}`, {
           method:"DELETE"
           })
+          $("p:first-child").remove()
         };
      //update the DOM
       //This button will delete an insult from the Insult Index. 
       $('#deletebutton').on('click', deleteInsult)
-      //deleteInsult()
-
 
     //Update an Insult
     const updateInsult = async(event) => {
