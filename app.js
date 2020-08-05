@@ -38,14 +38,17 @@ random insult from the seed and put it on the page as a starter for the user.
     ////populate DOM with Insul
     // data.forEach((insult) => { 
       const randomInsultIndex = Math.floor(Math.random()*data.length)
-        const $p = $(`<p>`).text(data[randomInsultIndex].name)
+      //So here is where we made the insults generate randomly using Math.Random and at the end of this line
+      //.attr we are using it to look for the ID of the insult evertime one is generated and makes a new paragrah.
+        const $p = $(`<p>`).text(data[randomInsultIndex].name).attr("id", data[randomInsultIndex]._id)
         $(`.first`).empty().append($p)
-      
-      console.log(data.length);
+        console.log(data.length);
+        
   }
+
 //This function makes insults appear on screen
 getInsults();
-
+//$('#generateInsult').on('click', randomInsultIndex)
 
 
               //Create an Insult
@@ -59,7 +62,7 @@ getInsults();
           method:'POST',
             //lets server know to parse body as JSON data
             //Postmak makes headers for the user; next to body //can I make it paragraphs
-            headers:{
+            p:{
               "content-Type":"application/json"
             },
             //pass in a js object and turn into a JSON string
@@ -74,21 +77,41 @@ getInsults();
 //This button from the index.html is what submits the new insult to the database. 
     $('#addbutton').on('click', addtoInsultIndex)
 
-/*
+
     //Delete an insult
     const deleteInsult = async(event) => {
-      //make request to delete rat.
-      const response = await fetch('${URL}/rat/${event.target.id}', {
-        method:"DELETE"
-        //Nothing else is needed 
-      })
-      //update the DOM
-      get Insults()
-    };
-*/
+      //make request to delete insult. 
+      //This is suppose to select the first p tag that is the child of another element. 
+        const delInsult = $("p").attr("id")
+      
+          const response = await fetch('${URL}/insults/${delInsult}', {
+          method:"DELETE"
+          })
+        };
+     //update the DOM
+      //This button will delete an insult from the Insult Index. 
+      $('#deletebutton').on('click', deleteInsult)
+      deleteInsult()
 
 
-
+    //Update an Insult
+    const updateInsult = async(event) => {
+      //create updated insult Object.
+        const updatedInsult = {
+          "name":"$nameEditInput.val(),"
+        }
+        //make our put request
+        const response = await fetch(`${URL}/insults/{updateInsult}`, {
+          method:"PUT",
+            p:{
+              "Content-Type":"application/json"
+            },
+            body:JSON.stringify(updatedInsults)
+        })
+        //update the DOM
+        getInsults();
+    }
+    
 
 
     //hamburger menu
