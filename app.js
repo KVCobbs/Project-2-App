@@ -34,14 +34,13 @@ random insult from my seed so thanks to Jordan I figured out how to use math.ran
 random insult from the seed and put it on the page as a starter for the user. 
 */
 
-
     ////populate DOM with Insult
     // data.forEach((insult) => { 
       const randomInsultIndex = Math.floor(Math.random()*data.length)
       //So here is where we made the insults generate randomly using Math.Random and at the end of this line
       //.attr we are using it to look for the ID of the insult evertime one is generated and makes a new paragrah.
         const $p = $(`<p>`).text(data[randomInsultIndex].name).attr("id", data[randomInsultIndex]._id)
-        $p.on('click', console.log("I'm sick of this shit"))
+        await $p.on('click', console.log("I'm sick of this shit"))
         $(`.first`).empty().append($p)
         console.log(data.length);
       
