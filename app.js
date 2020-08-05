@@ -91,7 +91,7 @@ getInsults();
      //update the DOM
       //This button will delete an insult from the Insult Index. 
       $('#deletebutton').on('click', deleteInsult)
-      deleteInsult()
+      //deleteInsult()
 
 
     //Update an Insult
