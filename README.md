@@ -10,8 +10,8 @@ Project Schedule
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 2| Working RestAPI | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
 
@@ -44,10 +44,10 @@ Hamburger animation
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Hamburger menu | H | 6hr | -hr | -hr|
-| Frontend/Backend connection | H | 8hr | -hr | -hr|
+| Hamburger menu | H | 6hr | 2hr | -hr|
+| Frontend/Backend connection | H | 8hr | hr | -hr|
 | Seperate library page | H | 8hr| -hr | -hr |
-|drop down menu from hamburger to library| M | 8hr | -hr | -hr|
+|drop down menu from hamburger to library| M | 8hr | 2hr | -hr|
 
 
 
@@ -56,6 +56,7 @@ Hamburger animation
 | --- | :---: |  :---: | :---: | :---: |
 | Clean version slider | L | 3hr | -hr | -hr|
 | Hamburger animation | L | 6hr | -hr | -hr|
+| User login | M | 6hr | -hr | -hr|
 
 
 Additional Libraries:
