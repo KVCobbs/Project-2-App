@@ -105,14 +105,14 @@ getInsults();
           "name":$nameEditInput.val()
         }
         //make our put request
-        const response = await fetch(`${URL}/insults/${}`, {
-          method:"PUT",
-            headers:{
-              "Content-Type":"application/json"
-            },
-            body:JSON.stringify(updatedInsults)
-        })
-    }
+       // const response = await fetch(`${URL}/insults/${}`, {
+          //method:"PUT",
+          // headers:{
+            //  "Content-Type":"application/json"
+           // },
+           // body:JSON.stringify(updatedInsults)
+       // })
+   }
 
           //update the DOM
           $('#updatebutton').on('click', updateInsult)
