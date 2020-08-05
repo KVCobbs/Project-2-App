@@ -35,14 +35,16 @@ random insult from the seed and put it on the page as a starter for the user.
 */
 
 
-    ////populate DOM with Insul
+    ////populate DOM with Insult
     // data.forEach((insult) => { 
       const randomInsultIndex = Math.floor(Math.random()*data.length)
       //So here is where we made the insults generate randomly using Math.Random and at the end of this line
       //.attr we are using it to look for the ID of the insult evertime one is generated and makes a new paragrah.
         const $p = $(`<p>`).text(data[randomInsultIndex].name).attr("id", data[randomInsultIndex]._id)
+        $p.on('click', console.log("I'm sick of this shit"))
         $(`.first`).empty().append($p)
         console.log(data.length);
+      
         
   }
 
@@ -96,6 +98,8 @@ getInsults();
       //The idea I was going for with update is that user can update insults. like if you wanted to fix a typo
     //Update an Insult
     const updateInsult = async(event) => {
+        const $pupdate = $(`p`).attr("id")
+          
       //create updated insult Object.
         const updatedInsult = {
           "name":$nameEditInput.val()
@@ -108,10 +112,12 @@ getInsults();
             },
             body:JSON.stringify(updatedInsults)
         })
-        //update the DOM
-        getInsults();
     }
-    
+
+          //update the DOM
+          $('#updatebutton').on('click', updateInsult)
+          getInsults();
+          
 
 
     //hamburger menu
