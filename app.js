@@ -62,7 +62,7 @@ getInsults();
           method:'POST',
             //lets server know to parse body as JSON data
             //Postmak makes headers for the user; next to body //can I make it paragraphs
-            p:{
+            headers:{
               "content-Type":"application/json"
             },
             //pass in a js object and turn into a JSON string
@@ -92,16 +92,18 @@ getInsults();
       //This button will delete an insult from the Insult Index. 
       $('#deletebutton').on('click', deleteInsult)
 
+
+      //The idea I was going for with update is that user can update insults. like if you wanted to fix a typo
     //Update an Insult
     const updateInsult = async(event) => {
       //create updated insult Object.
         const updatedInsult = {
-          "name":"$nameEditInput.val(),"
+          "name":$nameEditInput.val()
         }
         //make our put request
-        const response = await fetch(`${URL}/insults/{updateInsult}`, {
+        const response = await fetch(`${URL}/insults/${}`, {
           method:"PUT",
-            p:{
+            headers:{
               "Content-Type":"application/json"
             },
             body:JSON.stringify(updatedInsults)
