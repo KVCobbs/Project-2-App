@@ -129,6 +129,7 @@ $('#generatebutton').on('click', renderInsults)
                 getInsults();
                 //What I learned with Alex is that update is the hardest and I need to make sure that I double check things 4 times before testing
 
+//////////////////////////////////////////////////////////////////////////
 
     //hamburger menu
     $(document).ready(function(){
@@ -138,3 +139,44 @@ $('#generatebutton').on('click', renderInsults)
       });
     });
   
+/*
+    //////////////////////////////////////////////////////////////////////
+    const $signInInput = $("#create");
+    let users = [] 
+
+    const signIn = async () => {
+      //gets the users
+      const response = await fetch(`${URL}/signIn`); //this line connects to line 4
+      const data = await response.json();
+      insults = await data; //To bring the data here we brought it from the seed to the app using await data which is the seed.
+     // data.forEach((insult) => { 
+      const $p = $(`<p>`).text(users[randomInsultIndex].name).attr("id", user[randomInsultIndex]._id)
+      $p.on('click',) //Then here we changed the data to insult. so insults = await data meaning it's 
+      $(`.first`).empty().append($p) //Just waiting for the data to come. 
+      console.log(signIn.length);
+      }
+
+      /*
+              //Create an Insult
+              const addtoInsultIndex = async () => {
+                //create new insult object from form data
+                    const newInsult = {
+                      "name":$('#newinsult').val(),
+                      }
+                //send request to API to create insult
+                const response = await fetch(`${URL}/insults`,{
+                method:'POST',
+                  //lets server know to parse body as JSON data
+                  //Postmak makes headers for the user; next to body //can I make it paragraphs
+                  headers:{
+                    "content-Type":"application/json"
+                  },
+                  //pass in a js object and turn into a JSON string
+                  body:JSON.stringify(newInsult)
+                })
+              const data = response.json();
+              //update the DOM and the submit input with new insult
+              $('#newinsult').val("")
+              getInsults();
+          }
+          */
