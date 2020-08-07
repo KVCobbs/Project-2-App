@@ -45,9 +45,8 @@ Hamburger animation
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Hamburger menu | H | 6hr | 2hr | -hr|
-| Frontend/Backend connection | H | 8hr | hr | -hr|
-| Seperate library page | H | 8hr| -hr | -hr |
-|drop down menu from hamburger to library| M | 8hr | 2hr | -hr|
+| Frontend/Backend connection | H | 8hr | 6hr | 10hr|
+|drop down menu from hamburger to functions| M | 8hr | 2hr | 3hr|
 
 
 
@@ -55,8 +54,9 @@ Hamburger animation
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Clean version slider | L | 3hr | -hr | -hr|
-| Hamburger animation | L | 6hr | -hr | -hr|
-| User login | M | 6hr | -hr | -hr|
+| Hamburger animation | L | 6hr | 2hr | 2hr|
+| User login | M | 6hr | 4hr | 4hr|
+| Seperate library page | H | 8hr| -hr | -hr |
 
 
 Additional Libraries:
@@ -65,12 +65,45 @@ N/A
 
 Code Snippet:
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description
-N/A
 
+I call this code my fraken stien baby because I took bits and pieces of code and mixed it together and it worked.
+
+const getInsults = async () => {
+  //gets the insults
+  const response = await fetch(`${URL}/insults`); //this line connects to line 4
+  const data = await response.json();
+  insults = await data; //To bring the data here we brought it from the seed to the app using await data which is the seed.    
+  }
+        const renderInsults = () => {
+          console.log("whatever.")
+          const randomInsultIndex = Math.floor(Math.random()*insults.length)
+        const $p = $(`<p>`).text(insults[randomInsultIndex].name).attr("id", insults[randomInsultIndex]._id)
+        $p.on('click',) //Then here we changed the data to insult.  
+        $(`.first`).empty().append($p) 
+        console.log(insults.length);
+        getUsers()
+        }
 
 
 Issues and Resolutions:
 Use this section to list of all major issues encountered and their resolution.
-N/A
+
+This line of code messed up my media query so hard cause I try to add too much stuff. my idea was to push everything to a 
+certain point in both desktop and mobile and it just messed everything up in both. I took out line 95. 101. and 102.
+
+#generatebutton{
+   position:absolute
+  background-color:#9E6840;
+  border:white;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+display:inline-block
+left: -300px;
+  font-size:55px;
+  border-radius:25px;
+  transition-duration:0.4s;
+  cursor:pointer;
+}
 
 
