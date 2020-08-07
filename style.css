@@ -300,12 +300,12 @@ font-size:25px;
   
   #generatebutton{
     background-color:#9E6840;
-    /*border:none;*/
+    
     color:white;
     text-align:center;
     text-decoration:none;
-    font-size:15px;
-    /*border-radius:25px;*/
+    font-size:35px;
+    border-radius:25px;
     transition-duration:0.4s;
     cursor:pointer;
   }
